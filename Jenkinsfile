@@ -6,9 +6,14 @@ pipeline {
                 git 'https://github.com/wellflag/react01.git'
             }
         }
-        stage('Build') { 
+        stage('Install') { 
             steps {
                 sh 'npm install' 
+            }
+        }
+        stage('Build') { 
+            steps {
+                sh 'npm run-script build ' 
             }
         }
     } 
