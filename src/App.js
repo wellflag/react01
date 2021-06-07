@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Edit <code>src/App.js</code> and save to reload. Hello BBB-111
+          Edit <code>src/App.js</code> and save to reload. Deploy test 111-222
         </p>
         <a
           className="App-link"
